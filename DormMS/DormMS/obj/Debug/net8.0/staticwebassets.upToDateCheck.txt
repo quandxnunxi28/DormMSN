@@ -1,0 +1,6 @@
+wwwroot\css\Home.css
+wwwroot\css\Login.css
+wwwroot\Home.html
+wwwroot\js\app.js
+wwwroot\Login.html
+wwwroot\student.html
