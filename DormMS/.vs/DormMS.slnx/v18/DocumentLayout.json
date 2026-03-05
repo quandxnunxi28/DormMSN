@@ -1,80 +1,80 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\xuanq\\source\\repos\\DormMS\\",
+  "WorkspaceRootPath": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\source\\repos\\dormms\\dormms\\wwwroot\\student.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\wwwroot\\student.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\source\\repos\\dormms\\dormms\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\onedrive\\desktop\\prn232            project\\dormms\\dormms\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\source\\repos\\dormms\\dormms\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\onedrive\\desktop\\prn232            project\\dormms\\dormms\\wwwroot\\student.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\wwwroot\\student.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\onedrive\\desktop\\prn232            project\\dormms\\dormms\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\source\\repos\\dormms\\dormms\\wwwroot\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\onedrive\\desktop\\prn232            project\\dormms\\dormms\\wwwroot\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\wwwroot\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\source\\repos\\dormms\\dormms\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\onedrive\\desktop\\prn232            project\\dormms\\dormms\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\wwwroot\\css\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\source\\repos\\dormms\\dormms\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\onedrive\\desktop\\prn232            project\\dormms\\dormms\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\wwwroot\\login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\source\\repos\\dormms\\dormms\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\onedrive\\desktop\\prn232            project\\dormms\\dormms\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\source\\repos\\dormms\\dormms\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\onedrive\\desktop\\prn232            project\\dormms\\dormms\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\source\\repos\\dormms\\dormms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\onedrive\\desktop\\prn232            project\\dormms\\dormms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\source\\repos\\dormms\\dormms\\models\\hosteluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\onedrive\\desktop\\prn232            project\\dormms\\dormms\\models\\hosteluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\models\\hosteluser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\source\\repos\\dormms\\dormms\\models\\dormmsncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\onedrive\\desktop\\prn232            project\\dormms\\dormms\\models\\dormmsncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\models\\dormmsncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\source\\repos\\dormms\\dormms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\onedrive\\desktop\\prn232            project\\dormms\\dormms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\source\\repos\\dormms\\dormms\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\onedrive\\desktop\\prn232            project\\dormms\\dormms\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\source\\repos\\dormms\\dormms\\models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\onedrive\\desktop\\prn232            project\\dormms\\dormms\\models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\models\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\source\\repos\\dormms\\dormms\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\onedrive\\desktop\\prn232            project\\dormms\\dormms\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\source\\repos\\dormms\\dormms\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|c:\\users\\xuanq\\onedrive\\desktop\\prn232            project\\dormms\\dormms\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B14B86A-645C-B31C-9B6D-1F93ED3D300B}|DormMS\\DormMS.csproj|solutionrelative:dormms\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA674B5A-3394-926C-2B1E-70E5B00E4A5C}|UI{FA674B5A-3394-926C-2B1E-70E5B00E4A5C}|C:\\Users\\xuanq\\source\\repos\\DormMS\\Home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FA674B5A-3394-926C-2B1E-70E5B00E4A5C}|UI{FA674B5A-3394-926C-2B1E-70E5B00E4A5C}|C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\Home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FA674B5A-3394-926C-2B1E-70E5B00E4A5C}|UI{FA674B5A-3394-926C-2B1E-70E5B00E4A5C}|solutionrelative:Home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA674B5A-3394-926C-2B1E-70E5B00E4A5C}|UI{FA674B5A-3394-926C-2B1E-70E5B00E4A5C}|C:\\Users\\xuanq\\source\\repos\\DormMS\\Login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FA674B5A-3394-926C-2B1E-70E5B00E4A5C}|UI{FA674B5A-3394-926C-2B1E-70E5B00E4A5C}|C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\Login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FA674B5A-3394-926C-2B1E-70E5B00E4A5C}|UI{FA674B5A-3394-926C-2B1E-70E5B00E4A5C}|solutionrelative:Login.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -85,7 +85,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -135,9 +135,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "app.js",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\wwwroot\\js\\app.js",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\wwwroot\\js\\app.js",
               "RelativeDocumentMoniker": "DormMS\\wwwroot\\js\\app.js",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\wwwroot\\js\\app.js",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\wwwroot\\js\\app.js",
               "RelativeToolTip": "DormMS\\wwwroot\\js\\app.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -148,9 +148,9 @@
               "DocumentIndex": 12,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAAEVAAAAAAAAAAAAAAgVAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2026-03-02T10:50:09.348Z"
@@ -159,9 +159,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "DormMsnContext.cs",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Models\\DormMsnContext.cs",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Models\\DormMsnContext.cs",
               "RelativeDocumentMoniker": "DormMS\\Models\\DormMsnContext.cs",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Models\\DormMsnContext.cs",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Models\\DormMsnContext.cs",
               "RelativeToolTip": "DormMS\\Models\\DormMsnContext.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAkwDIAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -169,11 +169,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "student.html",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\wwwroot\\student.html",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\wwwroot\\student.html",
               "RelativeDocumentMoniker": "DormMS\\wwwroot\\student.html",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\wwwroot\\student.html",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\wwwroot\\student.html",
               "RelativeToolTip": "DormMS\\wwwroot\\student.html",
               "ViewState": "AgIAAG8AAAAAAAAAAAAiwH8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -184,9 +184,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Login.html",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\wwwroot\\Login.html",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\wwwroot\\Login.html",
               "RelativeDocumentMoniker": "DormMS\\wwwroot\\Login.html",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\wwwroot\\Login.html",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\wwwroot\\Login.html",
               "RelativeToolTip": "DormMS\\wwwroot\\Login.html",
               "ViewState": "AgIAAFQAAAAAAAAAAAAAAFsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -196,9 +196,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Home.html",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\wwwroot\\Home.html",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\wwwroot\\Home.html",
               "RelativeDocumentMoniker": "DormMS\\wwwroot\\Home.html",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\wwwroot\\Home.html",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\wwwroot\\Home.html",
               "RelativeToolTip": "DormMS\\wwwroot\\Home.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -208,9 +208,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "DormMS\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Properties\\launchSettings.json",
               "RelativeToolTip": "DormMS\\Properties\\launchSettings.json",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -218,13 +218,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Home.css",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\wwwroot\\css\\Home.css",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\wwwroot\\css\\Home.css",
               "RelativeDocumentMoniker": "DormMS\\wwwroot\\css\\Home.css",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\wwwroot\\css\\Home.css*",
-              "RelativeToolTip": "DormMS\\wwwroot\\css\\Home.css*",
-              "ViewState": "AgIAABUBAAAAAAAAAAAiwCcBAAAHAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\wwwroot\\css\\Home.css",
+              "RelativeToolTip": "DormMS\\wwwroot\\css\\Home.css",
+              "ViewState": "AgIAABUBAAAAAAAAAAAiwCoBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-03-02T08:56:18.365Z",
               "EditorCaption": ""
@@ -233,9 +233,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "Home.html",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\Home.html",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\Home.html",
               "RelativeDocumentMoniker": "Home.html",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\Home.html",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\Home.html",
               "RelativeToolTip": "Home.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -245,9 +245,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Login.css",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\wwwroot\\css\\Login.css",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\wwwroot\\css\\Login.css",
               "RelativeDocumentMoniker": "DormMS\\wwwroot\\css\\Login.css",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\wwwroot\\css\\Login.css",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\wwwroot\\css\\Login.css",
               "RelativeToolTip": "DormMS\\wwwroot\\css\\Login.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -257,9 +257,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "Login.html",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\Login.html",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\Login.html",
               "RelativeDocumentMoniker": "Login.html",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\Login.html",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\Login.html",
               "RelativeToolTip": "Login.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
@@ -269,9 +269,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Models\\LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Models\\LoginDto.cs",
               "RelativeDocumentMoniker": "DormMS\\Models\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Models\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Models\\LoginDto.cs",
               "RelativeToolTip": "DormMS\\Models\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -281,9 +281,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "RegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Models\\RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Models\\RegisterDto.cs",
               "RelativeDocumentMoniker": "DormMS\\Models\\RegisterDto.cs",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Models\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Models\\RegisterDto.cs",
               "RelativeToolTip": "DormMS\\Models\\RegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -293,9 +293,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "HostelUser.cs",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Models\\HostelUser.cs",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Models\\HostelUser.cs",
               "RelativeDocumentMoniker": "DormMS\\Models\\HostelUser.cs",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Models\\HostelUser.cs",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Models\\HostelUser.cs",
               "RelativeToolTip": "DormMS\\Models\\HostelUser.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAwwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -305,9 +305,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Models\\Role.cs",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Models\\Role.cs",
               "RelativeDocumentMoniker": "DormMS\\Models\\Role.cs",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Models\\Role.cs",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Models\\Role.cs",
               "RelativeToolTip": "DormMS\\Models\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -317,9 +317,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "DormMS\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Controllers\\AuthController.cs",
               "RelativeToolTip": "DormMS\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAwwHwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -329,9 +329,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\appsettings.json",
               "RelativeDocumentMoniker": "DormMS\\appsettings.json",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\appsettings.json",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\appsettings.json",
               "RelativeToolTip": "DormMS\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -341,9 +341,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Program.cs",
               "RelativeDocumentMoniker": "DormMS\\Program.cs",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Program.cs",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Program.cs",
               "RelativeToolTip": "DormMS\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -353,9 +353,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Controllers\\WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "DormMS\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\xuanq\\source\\repos\\DormMS\\DormMS\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\xuanq\\OneDrive\\Desktop\\PRN232            Project\\DormMS\\DormMS\\Controllers\\WeatherForecastController.cs",
               "RelativeToolTip": "DormMS\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwBIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
