@@ -63,6 +63,7 @@ namespace DormMS.Controllers
                 }
 
                 var hashedPassword = BCrypt.Net.BCrypt.HashPassword(dto.Password);
+                Console.WriteLine(hashedPassword.Length);
                 Console.WriteLine($"Hashed password length: {hashedPassword.Length}");
 
                 var user = new HostelUser
@@ -114,7 +115,7 @@ namespace DormMS.Controllers
             if (user == null || !BCrypt.Net.BCrypt.Verify(dto.Password, user.Password))
                 return Unauthorized(new
                 {
-                    field = "login",
+                    field = "login",    
                     message = "Sai email hoặc mật khẩu"
                 });
 
