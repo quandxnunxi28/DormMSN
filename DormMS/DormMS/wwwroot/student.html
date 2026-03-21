@@ -39,7 +39,7 @@
                 <li>❓ FAQ</li>
             </ul>
 
-            <button class="logout-btn">Đăng xuất</button>
+            <button id="logoutBtn" class="logout-btn">Đăng xuất</button>
         </aside>
 
         <!-- CONTENT -->
@@ -92,12 +92,12 @@
                                 <img class="avatar-img" src="avatar.jpg">
 
                                 <div class="profile-data">
-                                    <h3>Đoàn Xuân Quân</h3>
-                                    <p>2004-10-27 - Male</p>
-                                    <p>Phone: 0913966163</p>
-                                    <p>Email: quan@example.com</p>
-                                    <p>Bed: C202L - No.7</p>
-                                    <p>Balance: 0 VND</p>
+                                    <h3 id="name"></h3>
+                                    <p id="dob"></p>
+                                    <p id="phone"></p>
+                                    <p id="email"></p>
+                                    <p id="bed"></p>
+                                    <p id="balance"></p>
                                 </div>
 
                             </div>
@@ -127,7 +127,50 @@
 
     </div>
 
-    <script src="/js/app.js"></script>
+    <script src="/js/app.js">
+
+    </script>
+    <script>
+        // ✅ lấy token từ URL nếu có
+        const params = new URLSearchParams(window.location.search);
+        const tokenFromUrl = params.get("token");
+
+        if (tokenFromUrl) {
+            localStorage.setItem("token", tokenFromUrl);
+            window.history.replaceState({}, document.title, "/student.html");
+        }
+        async function loadProfile() {
+            const token = localStorage.getItem("token");
+
+            if (!token) {
+                window.location.href = "/login.html";
+                return;
+            }   
+
+            const res = await fetch('/api/auth/me', {
+                headers: {
+                    "Authorization": "Bearer " + token
+                }
+            });
+
+            if (!res.ok) {
+                alert("Hết phiên đăng nhập");
+                localStorage.removeItem("token");
+                window.location.href = "/login.html";
+                return;
+            }
+
+            const user = await res.json();
+
+            document.getElementById("name").innerText = user.name;
+            document.getElementById("email").innerText = "Email: " + user.email;
+            document.getElementById("phone").innerText = "Phone: " + (user.phone || "N/A");
+            document.getElementById("dob").innerText = user.dob || "";
+            document.getElementById("balance").innerText = "Balance: " + user.balance + " VND";
+        }
+
+        loadProfile();
+    </script>
 </body>
 
     

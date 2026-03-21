@@ -1,4 +1,7 @@
 ﻿using DormMS.Models;
+using DormMS.Service;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -12,8 +15,11 @@ namespace DormMS.Controllers
     [Route("api/[controller]")]
     public class AuthController : ControllerBase
     {
+        private static Dictionary<string, string> otpStorage = new();
+        private static Dictionary<string, RegisterDto> registerStorage = new();
         private readonly DormMsnContext _context;
         private readonly IConfiguration _config;
+        
         public AuthController(DormMsnContext context, IConfiguration config)
         {
             _context = context;
@@ -26,25 +32,16 @@ namespace DormMS.Controllers
             try
             {
                 if (dto == null)
-                {
-                    Console.WriteLine("DTO NULL");
-                    return BadRequest("Không nhận được dữ liệu từ client");
-                }
-                // Ép chạy validate để ModelState có dữ liệu đầy đủ
+                    return BadRequest("Không nhận được dữ liệu");
+
                 TryValidateModel(dto);
-                Console.WriteLine($"ModelState.Count = {ModelState.Count}");
-                Console.WriteLine($"ModelState.IsValid = {ModelState.IsValid}");
-               
 
                 if (!ModelState.IsValid)
-                {
-                    Console.WriteLine("ModelState Invalid");
                     return BadRequest(ModelState);
-                }
 
+                // ❌ Email đã tồn tại
                 if (_context.HostelUsers.Any(x => x.Email == dto.Email))
                 {
-                    Console.WriteLine("Email đã tồn tại");
                     return BadRequest(new
                     {
                         field = "email",
@@ -52,45 +49,34 @@ namespace DormMS.Controllers
                     });
                 }
 
+                // ❌ Password yếu
                 if (!IsStrongPassword(dto.Password))
                 {
-                    Console.WriteLine("Password không đủ mạnh");
                     return BadRequest(new
                     {
                         field = "password",
-                        message = "Mật khẩu phải ≥ 8 ký tự, có chữ hoa, chữ thường và ký tự đặc biệt"
+                        message = "Mật khẩu không đủ mạnh"
                     });
                 }
 
-                var hashedPassword = BCrypt.Net.BCrypt.HashPassword(dto.Password);
-                Console.WriteLine(hashedPassword.Length);
-                Console.WriteLine($"Hashed password length: {hashedPassword.Length}");
+                
 
-                var user = new HostelUser
+                var otp = new Random().Next(100000, 999999).ToString();
+
+                otpStorage[dto.Email] = otp;
+                registerStorage[dto.Email] = dto;
+
+                var emailService = new EmailService();
+                emailService.SendOtp(dto.Email, otp);
+
+                return Ok(new
                 {
-                    Username = dto.Username,
-                    Name = dto.Username,
-                    Email = dto.Email,
-                    Password = hashedPassword,
-                    Role = 2,
-                    Status ="Active"
-                };
-
-                Console.WriteLine("Đã tạo object user");
-
-                _context.HostelUsers.Add(user);
-                Console.WriteLine("Đã Add vào context");
-
-                _context.SaveChanges();
-                Console.WriteLine("SaveChanges thành công");
-
-                return Ok(new { message = "Đăng ký thành công" });
+                    message = "OTP đã gửi về email",
+                    email = dto.Email
+                });
             }
             catch (Exception ex)
             {
-                Console.WriteLine("===== LỖI XẢY RA =====");
-                Console.WriteLine(ex.ToString());
-
                 return StatusCode(500, ex.ToString());
             }
         }
@@ -128,6 +114,139 @@ namespace DormMS.Controllers
                 role = user.RoleNavigation.RoleName
             });
         }
+
+        [HttpPost("verify-otp")]
+        public IActionResult VerifyOtp([FromBody] OtpDto dto)
+        {
+            if (!otpStorage.ContainsKey(dto.Email))
+                return BadRequest(new { message = "Chưa gửi OTP" });
+
+            if (otpStorage[dto.Email] != dto.Otp)
+                return BadRequest(new { message = "OTP không đúng" });
+
+            // =============================
+            // 🔥 CASE 1: REGISTER
+            // =============================
+            if (registerStorage.ContainsKey(dto.Email))
+            {
+                var reg = registerStorage[dto.Email];
+
+                var hashedPassword = BCrypt.Net.BCrypt.HashPassword(reg.Password);
+
+                var user = new HostelUser
+                {
+                    Username = reg.Username,
+                    Name = reg.Username,
+                    Email = reg.Email,
+                    Password = hashedPassword,
+                    Role = 2,
+                    Status = "Active"
+                };
+
+                _context.HostelUsers.Add(user);
+                _context.SaveChanges();
+
+                registerStorage.Remove(dto.Email);
+            }
+
+            // =============================
+            // 🔥 LOGIN (google hoặc otp)
+            // =============================
+            var userDb = _context.HostelUsers
+                .Include(x => x.RoleNavigation)
+                .FirstOrDefault(x => x.Email == dto.Email);
+
+            var token = GenerateJwt(userDb);
+
+            otpStorage.Remove(dto.Email);
+
+            return Ok(new
+            {
+                token,
+                fullName = userDb.Name
+            });
+        }
+        [HttpGet("google-login")]
+        public IActionResult GoogleLogin()
+        {
+            var redirectUrl = "https://localhost:7088/api/auth/google-response";
+            var props = new AuthenticationProperties { RedirectUri = redirectUrl };
+            return Challenge(props, "Google");
+        }
+        [HttpGet("google-response")]
+        public async Task<IActionResult> GoogleResponse()
+        {
+            var result = await HttpContext.AuthenticateAsync("Cookies");
+
+            var email = result.Principal.FindFirst(ClaimTypes.Email)?.Value;
+            var name = result.Principal.FindFirst(ClaimTypes.Name)?.Value;
+
+            if (string.IsNullOrEmpty(email))
+                return BadRequest("Không lấy được email");
+
+            // 🔍 kiểm tra user trong DB
+            var user = _context.HostelUsers
+                .Include(x => x.RoleNavigation)
+                .FirstOrDefault(x => x.Email == email);
+
+            // ===============================
+            // ❌ CHƯA CÓ USER → gửi OTP
+            // ===============================
+            if (user == null)
+            {
+                var otp = new Random().Next(100000, 999999).ToString();
+                otpStorage[email] = otp;
+
+                var emailService = new EmailService();
+                emailService.SendOtp(email, otp);
+
+                // 👉 chuyển sang OTP page
+                return Redirect($"/otp.html?email={email}&newUser=true");
+            }
+
+            // ===============================
+            // ✅ ĐÃ CÓ USER → LOGIN LUÔN
+            // ===============================
+            var token = GenerateJwt(user);
+
+            return Redirect($"/student.html?token={token}");
+        }
+
+        [HttpPost("logout")]
+        public IActionResult Logout()
+        {
+           
+
+            return Ok(new { message = "Đăng xuất thành công" });
+        }
+
+
+        [Authorize]
+        [HttpGet("me")]
+        public IActionResult GetMe()
+        {
+            var username = User.Identity?.Name;
+
+            if (username == null)
+                return Unauthorized();
+
+            var user = _context.HostelUsers
+                .FirstOrDefault(x => x.Username == username);
+
+            if (user == null)
+                return NotFound();
+
+            return Ok(new
+            {
+                name = user.Name,
+                email = user.Email,
+                phone = user.Phone,
+                gender = user.Gender,
+                dob = user.Dob,
+                balance = 0
+            });
+        }
+
         private string GenerateJwt(HostelUser user)
         {
             var claims = new[]

@@ -34,14 +34,17 @@
             <div class="form-group">
                 <label>Họ tên</label>
                 <input type="text" id="regName" />
+                <div class="error" id="error-username"></div>
             </div>
             <div class="form-group">
                 <label>Email</label>
                 <input type="email" id="regEmail" />
+                <div class="error" id="error-email"></div>
             </div>
             <div class="form-group">
                 <label>Mật khẩu</label>
                 <input type="password" id="regPassword" />
+                <div class="error" id="error-password"></div>
             </div>
             <button onclick="register()">Đăng ký</button>
 
@@ -98,7 +101,12 @@
 
             if (res.ok) {
                 alert("Đăng nhập thành công!");
+                
+                localStorage.setItem("token", json.token);
 
+                
+                localStorage.setItem("fullName", json.fullName);
+                localStorage.setItem("role", json.role);
                 // 👉 Chuyển sang trang student.html
                 window.location.href = "/student.html";
             }
@@ -108,6 +116,8 @@
         }
 
         async function register() {
+            clearErrors();
+
             const data = {
                 username: regName.value,
                 email: regEmail.value,
@@ -115,27 +125,65 @@
             };
 
             const res = await fetch('/api/auth/register', {
-                method: 'POST', headers: { 'Content-Type': 'application/json' },
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(data)
             });
 
             const json = await res.json();
 
             if (res.ok) {
-                alert("Đăng ký thành công! Hãy đăng nhập.");
+                alert("OTP đã gửi về email");
+                localStorage.setItem("otpEmail", json.email);
+                window.location.href = `/otp.html?email=${json.email}`;
+            } else {
 
-                // 👉 Quay lại form đăng nhập
-                showLogin();
+                // ✅ Case 1: lỗi custom từ backend
+                if (json.field && json.message) {
+                    showError(json.field, json.message);
+                }
+
+                // ✅ Case 2: lỗi ModelState
+                else if (json.errors) {
+                    clearErrors();
+
+                    for (let key in json.errors) {
+                        const field = key.toLowerCase(); // Email -> email
+                        const message = json.errors[key][0];
+                        showError(field, message);
+                    }
+                }
+
+                // ❌ fallback
+                else {
+                    alert("Đăng ký lỗi");
+                }
             }
-            else {
-                alert(json.message || "Đăng ký thất bại");
+        }
+
+
+
+
+
+        function clearErrors() {
+            document.querySelectorAll(".error").forEach(e => e.innerText = "");
+        }
+
+        function showError(field, message) {
+            clearErrors();
+
+            const el = document.getElementById(`error-${field}`);
+            if (el) {
+                el.innerText = message;
+            } else {
+                alert(message); // fallback nếu không có field
             }
         }
 
   // Fake Google Login (bạn sẽ tích hợp OAuth thật sau)
-  function loginWithGoogle(){   
-    alert("Google OAuth sẽ được tích hợp sau");
-  }
+        function loginWithGoogle() {
+            window.location.href = "/api/auth/google-login";
+        }
 
   function forgotPassword(){
     alert("Hệ thống gửi mail quên mật khẩu (cần server backend)");

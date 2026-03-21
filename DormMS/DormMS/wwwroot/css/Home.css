@@ -152,24 +152,24 @@
 /* LEFT BIG NEWS */
 
 .news-panel {
-    flex: 2.5;
-    max-width: 750px;
+    flex: 1;
+    max-width: 95%;
     height: 475px;
     font-size: 18px;
     font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: #f5f5f5;
-    margin-left: 67px;
+    background-color: #ffffff;
+    margin-left: 12px;
 }
 
 /* RIGHT SIDE */
 
 .student-side {
-    flex: 1.5;
+    flex: 2;
     display: flex;
     max-width: 420px;
     flex-direction: column;
     gap: 21px;
+    margin-right: 20px;
 }
 
 /* HEADER */
@@ -178,7 +178,7 @@
     background: #1a4f95;
     color: white;
     padding: 12px 18px;
-    width: 684px;
+    width: 95%;
     font-weight: bold;
     border-radius: 10px 10px 0 0;
 }
@@ -207,9 +207,9 @@
     background: white;
     padding: 18px;
     height: 391px;
-    width: 683px;
+    width: 95%;
     border-radius: 0 0 10px 10px;
-    border: 1px solid #e5e5e5;
+    border: 6px solid #e5e5e5;
 }
 
 .panel-body2 {
@@ -218,7 +218,7 @@
     max-width: 600px;
     height: 182px;
     border-radius: 0 0 10px 10px;
-    border: 1px solid #e5e5e5;
+    border: 6px solid #e5e5e5;
 }
 
 .panel-body3 {
@@ -227,7 +227,7 @@
     max-width: 600px;
     height: 178px;
     border-radius: 0 0 10px 10px;
-    border: 1px solid #e5e5e5;
+    border: 6px solid #e5e5e5;
 }
 
 
