@@ -1,7 +1,0 @@
-wwwroot\css\Home.css
-wwwroot\css\Login.css
-wwwroot\Home.html
-wwwroot\js\app.js
-wwwroot\otp.html
-wwwroot\student.html
-wwwroot\Login.html
