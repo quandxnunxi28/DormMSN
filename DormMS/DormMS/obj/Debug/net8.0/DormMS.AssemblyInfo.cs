@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DormMS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd152852131f84de6e2a50440b096181d241dc62")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b952c57b3088cb5086e899902e39c8652f27b775")]
 [assembly: System.Reflection.AssemblyProductAttribute("DormMS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DormMS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
